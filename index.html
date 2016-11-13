@@ -15,6 +15,27 @@
         }
         
          /* p. ex {960 px;} */
+        p{font-size: 1.1em;}
+        
+        #fullwidth {width: 100%;}
+        
+        .leftcol, .rightcol {
+            flex: 1;
+            display: flex;
+            flex-flow: row-wrap;
+            align-items: center;
+        }
+        
+        .leftcol, .rightcol {
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        
+        
+        p{padding: 1em;}
+        h2{padding: 1em;}
+        
         
         #content { 
             margin: 0 auto;
@@ -23,17 +44,16 @@
         #Come {text-align: center}
         
         h1,h2,h3,h4,h5,h6 {
-            font-family: Georgia, Times, serif;
-        }
+            font-family: 'Impact', Times, sans-serif;}        
         
-        body {font-family: Arial, Helvetica, sans-serif}
+        body {font-family: Arial, Helvetica, sans-serif;}
         section {padding: 20px;}
         
     </style>
   
     <meta charset="utf-8">
    
-    <title>Dry Oar Boating </title>
+    <title>Dry Oar Boating</title>
     
     </head>
     
@@ -50,23 +70,30 @@
             <li><a href="index.html">Contact Us</a></li>
         </ul>
         </nav>
-        <img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River banner" width="940">
+        
+        <div class="fullwidth"><img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River banner" width="940"></div>
         
        <section id="We-Run-Rivers">
+           <div class="leftcol">
         <h1>We Run Rivers To Relax</h1>
         <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
+           </div>
+          <div class="rightcol">
         <img src="http://brothert.net/dryoar/images/river-portrait.jpg" alt="Canyon River picture" width="300">
+           </div>
         </section>
        
         <section id="Whitewater">
-        <img src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="White River Rafting picture" width="400">
+            <div><img src="http://brothert.net/dryoar/images/raft-rapid.jpg" alt="White River Rafting picture" width="400"></div>
+            <div class="rightcol">
         <h1>We Run Whitewater For The Rush!</h1>
         <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
+            </div>
         </section>
         
-            <img src="facebook.png" alt="Facebook">
-            <img src="twitter.png" alt="Twitter">
-            <img src="youtube.png" alt="Youtube">
+        <img src="facebook.png" alt="Facebook">
+        <img src="twitter.png" alt="Twitter">
+        <img src="youtube.png" alt="Youtube">
 
         
         <section id="Come-Visit-Us">
