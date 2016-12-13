@@ -1,11 +1,16 @@
         
         nav {background-color: darkred;}
         
-        #Whitewater {background-color: darkred;} 
+        #Blog-Logo {background-color: white;}
+
+        #Logo {background-color: white;}
         
         h1,h2,h3,h4,h5,h6 {color: goldenrod;
             
         }
+body {background-color: darkred; color: goldenrod;}
+
+        
         
          /* p. ex {960 px;} */
         p{font-size: 1.1em;}
@@ -24,7 +29,14 @@
             flex: 1 0 15em;
             margin: .5em;
         }
+
+#Social {padding: 50px; background-color: darkred}
+
+#Blog-Social {background-color: white;}
         
+img {
+    max-width: 100%;
+}
         
         p{padding: 1em;}
         h2{padding: 1em;}
@@ -42,11 +54,10 @@
         body {font-family: Arial, Helvetica, sans-serif;}
         section {padding: 20px;}
 
-#Whitewater {color: goldenrod}
-
 nav a {
     padding: 1em
 }
+
 
 
 nav > ul {
