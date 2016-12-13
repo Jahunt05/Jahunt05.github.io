@@ -58,7 +58,47 @@ nav a {
     padding: 1em
 }
 
+#growhome:hover {
+    
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
 
+#growrivers:hover {
+    
+     -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
+
+#growblog:hover {
+    
+     -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
+
+#growfaq:hover {
+    
+     -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
+
+#growrates:hover {
+    
+     -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
+
+#growcontact:hover {
+    
+     -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
 
 nav > ul {
     list-style-type: none;
